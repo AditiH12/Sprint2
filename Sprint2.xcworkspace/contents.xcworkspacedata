@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Products+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Products+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Sprint2+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Sprint2+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Sprint2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
