@@ -16,9 +16,12 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var EmailTextForLoginPage: UITextField!
     @IBOutlet weak var PasswordTextForLoginPage: UITextField!
-    @IBOutlet weak var ForgotPasswordButton: UIButton!
     @IBOutlet weak var LoginButton: UIButton!
     @IBOutlet weak var GoToSignUpPageButton: UIButton!
+    
+    
+    
+    @IBOutlet weak var forgotPassBtnTapped: UIButton!
     
     var emailForgotPassword = " "
    // var regEmail = [String]()
@@ -204,7 +207,12 @@ let passwordFirebase1: String = PasswordTextForLoginPage.text!   //Saving passwo
             loginUserByFirebase(EmailTextForLoginPage: emailId, PasswordTextForLoginPage: pass)
         }
     }
+   
+    @IBAction func ForgotPassBtnClicked(_ sender: Any) {
+        self.performSegue(withIdentifier: "forgotpass", sender: nil)
+    }
     
+   
 }
     
     

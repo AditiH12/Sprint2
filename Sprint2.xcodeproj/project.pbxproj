@@ -10,6 +10,7 @@
 		363918CC28E457550023AE3B /* SecondCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363918CB28E457550023AE3B /* SecondCartViewController.swift */; };
 		363918CE28E45C980023AE3B /* SecondCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363918CD28E45C980023AE3B /* SecondCartTableViewCell.swift */; };
 		363918D328E4947B0023AE3B /* ShoppingAppTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363918D228E4947B0023AE3B /* ShoppingAppTesting.swift */; };
+		363918DB28E4FCB60023AE3B /* ForgotPasswordNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363918DA28E4FCB60023AE3B /* ForgotPasswordNewViewController.swift */; };
 		3652083328DC160B000B86B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652083228DC160B000B86B1 /* AppDelegate.swift */; };
 		3652083528DC160B000B86B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652083428DC160B000B86B1 /* SceneDelegate.swift */; };
 		3652083728DC160B000B86B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652083628DC160B000B86B1 /* ViewController.swift */; };
@@ -93,6 +94,7 @@
 		363918CB28E457550023AE3B /* SecondCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCartViewController.swift; sourceTree = "<group>"; };
 		363918CD28E45C980023AE3B /* SecondCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCartTableViewCell.swift; sourceTree = "<group>"; };
 		363918D228E4947B0023AE3B /* ShoppingAppTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAppTesting.swift; sourceTree = "<group>"; };
+		363918DA28E4FCB60023AE3B /* ForgotPasswordNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordNewViewController.swift; sourceTree = "<group>"; };
 		3652082F28DC160B000B86B1 /* Sprint2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprint2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3652083228DC160B000B86B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3652083428DC160B000B86B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				3652086528DDFBFA000B86B1 /* LoginViewController.swift */,
 				3654366828DF51E500F5E68C /* SignUpViewController.swift */,
 				3654366A28DF687D00F5E68C /* ForgotPasswordViewController.swift */,
+				363918DA28E4FCB60023AE3B /* ForgotPasswordNewViewController.swift */,
 				3654367028E0857D00F5E68C /* TabBarViewController.swift */,
 				3654367228E097A800F5E68C /* CategoryViewController.swift */,
 				3654367428E097BD00F5E68C /* CartViewController.swift */,
@@ -550,6 +553,7 @@
 			files = (
 				3654368128E221E300F5E68C /* Sprint2+CoreDataProperties.swift in Sources */,
 				363918CE28E45C980023AE3B /* SecondCartTableViewCell.swift in Sources */,
+				363918DB28E4FCB60023AE3B /* ForgotPasswordNewViewController.swift in Sources */,
 				3654367F28E221C900F5E68C /* Sprint2+CoreDataClass.swift in Sources */,
 				3654375428E351A700F5E68C /* MapForLocationViewController.swift in Sources */,
 				3654374928E3330B00F5E68C /* NotificationViewController.swift in Sources */,

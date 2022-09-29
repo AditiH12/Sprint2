@@ -18,18 +18,8 @@ class TabBarViewController: UITabBarController {        //Class for displaying C
 
 }
 
-   /* @objc func didTapButton(){               //Create and present tab bar controllers.
-        let tabBarVC = UITabBarController()
-        let vc1 = CategoryViewController()
-        let vc2 = CartViewController()
-        tabBarVC.setViewControllers([vc1, vc2], animated: false)
-        
-        tabBarVC.modalPresentationStyle = .fullScreen
-        present(tabBarVC, animated: true)
-    }
-*/
 
-func didTapButton(){                               //Function to toggle between tabs.
+/*func didTapButton(){                               //Function to toggle between tabs.
     let vc1 = CategoryViewController()
     let vc2 = CartViewController()
     
@@ -49,5 +39,5 @@ func didTapButton(){                               //Function to toggle between 
     }
     
 }
-
+*/
 

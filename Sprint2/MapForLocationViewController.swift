@@ -21,8 +21,6 @@ class MapForLocationViewController: UIViewController, CLLocationManagerDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       // let backBarButtonItem = UIBarButtonItem(title: "Cart", style: .plain, target: nil, action: nil)
-                //navigationItem.backBarButtonItem = backBarButtonItem
     }
     
     override func viewDidAppear(_ animated: Bool) {

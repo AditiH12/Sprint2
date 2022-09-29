@@ -22,7 +22,7 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
     @IBOutlet weak var PasswordForSignupPage: UITextField!
     @IBOutlet weak var ConfirmPassTextField: UITextField!
     @IBOutlet weak var SignupButton: UIButton!
-    var regEmail = [String]()                              //Array for storing emailId.
+    var regEmail = [String?]()                              //Array for storing emailId.
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,7 +57,7 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
    
         let emailFirebase2: String = EmailForSignupPage.text!
         let passwordFirebase2: String = PasswordForSignupPage.text!
-        signUpUserByFirebase(EmailForSignupPage: emailFirebase2, PasswordForSignupPage: passwordFirebase2)
+        //signUpUserByFirebase(EmailForSignupPage: emailFirebase2, PasswordForSignupPage: passwordFirebase2)
         
         let userDictionary = ["userName":UserNameTextField.text, "userEmailID":EmailForSignupPage.text, "userMobileNo":MobileNoTextField.text, "userPassword":PasswordForSignupPage.text]
         
@@ -189,7 +189,7 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
                 }
                 
             var user1 = [Sprint2]()
-            let fetchEmpDetails = NSFetchRequest<NSManagedObject>(entityName: "EmployeeDetails")
+            let fetchEmpDetails = NSFetchRequest<NSManagedObject>(entityName: "Sprint2")
             
             do {
                 user1 = try context?.fetch(fetchEmpDetails) as! [Sprint2]
@@ -198,7 +198,7 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
             }
          
         for email in user1{
-            regEmail.append(email.userEmailID!)
+            regEmail.append(email.userEmailID)
         }
         
         if regEmail.contains(EmailForSignupPage.text!){
@@ -211,7 +211,7 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
         
         else if let name = self.UserNameTextField.text, let emailId = self.EmailForSignupPage.text, let num = self.MobileNoTextField.text, let pass = self.PasswordForSignupPage.text, let confirmPass = ConfirmPassTextField.text{
                 
-                 if name.isEmpty{                                       //Condition for empty Name textfield
+            if name.isEmpty{                                       //Condition for empty Name textfield
                     let alert = UIAlertController(title: "Alert", message: "Please enter Name", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title:"OK",style: .default, handler: nil))
                     present(alert, animated: true, completion: {
@@ -255,7 +255,7 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
                 print("Password is not valid.Please enter correct password.")
                 displayAlertMessage(messageToDisplay: "Password is not valid.Please enter correct password.")
             }
-            else if confirmPass != ConfirmPassTextField.text{
+            else if confirmPass != PasswordForSignupPage.text{
                 let alert = UIAlertController(title: "Alert", message: "Password does not match.", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title:"OK",style: .default, handler: nil))
                 present(alert, animated: true, completion: {
@@ -271,11 +271,17 @@ class SignUpViewController: UIViewController {          // SignUp class to regis
             }
 
            else{
+               let emailId: String = EmailForSignupPage.text!
+               let password: String = PasswordForSignupPage.text!
                 save(object: userDictionary as! [String:String])
-                let itemlistVc = self.storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") as! CategoryViewController
-                self.navigationController?.pushViewController(itemlistVc, animated: true)
-            }
-        }
+                //let itemlistVc = self.storyboard?.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+                //self.navigationController?.pushViewController(itemlistVc, animated: true)
+               let tabBarVC = self.storyboard?.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+               self.navigationController?.pushViewController(tabBarVC, animated: true)
+               //self.navigationItem.setHidesBackButton(true, animated: true)            }
+             //  signUpUserByFirebase(EmailForSignupPage: emailFirebase2, PasswordForSignupPage: passwordFirebase2)
+               signUpUserByFirebase(EmailForSignupPage: emailFirebase2, PasswordForSignupPage: passwordFirebase2)           }
     }
     
+}
 }

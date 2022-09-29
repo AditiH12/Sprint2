@@ -15,16 +15,12 @@ import FirebaseDatabase
 
 class AddToCartViewController: UIViewController {
 
-    //var url: String = "https://dummyjson.com/products/category/smartphones"
     var url = "https://dummyjson.com/products/category/"
     var items = [[String: Any]]()
     var itemabc = ""
     var nameData = ""
     var DescriptionData = ""
-    //var regName = [String?]()
-    
-    
-    
+
     
     @IBOutlet weak var AddtoCartItemsTable: UITableView!
   

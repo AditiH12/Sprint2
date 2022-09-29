@@ -180,5 +180,161 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C24E939-383B-4794-9276-3DB8383559E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sprint2/AddToCartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "AddToCartViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1C24E939-383B-4794-9276-3DB8383559E6 - 1b0150003d1cad54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sprint2.AddToCartViewController.url.getter : Swift.String"
+                  moduleName = "Sprint2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini-da073/Desktop/SPRINT2/Sprint2/Sprint2/AddToCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "1C24E939-383B-4794-9276-3DB8383559E6 - 13e7e507aa75bd60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sprint2.AddToCartViewController.url.setter : Swift.String"
+                  moduleName = "Sprint2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini-da073/Desktop/SPRINT2/Sprint2/Sprint2/AddToCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "1C24E939-383B-4794-9276-3DB8383559E6 - db03ebac490c4151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sprint2.AddToCartViewController.url.modify : Swift.String"
+                  moduleName = "Sprint2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini-da073/Desktop/SPRINT2/Sprint2/Sprint2/AddToCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1C24E939-383B-4794-9276-3DB8383559E6 - 694d766ce5646960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sprint2.AddToCartViewController.url.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Sprint2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini-da073/Desktop/SPRINT2/Sprint2/Sprint2/AddToCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "1C24E939-383B-4794-9276-3DB8383559E6 - 62dfeef8f14095e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sprint2.AddToCartViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Sprint2.AddToCartViewController"
+                  moduleName = "Sprint2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini-da073/Desktop/SPRINT2/Sprint2/Sprint2/AddToCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  uuid = "1C24E939-383B-4794-9276-3DB8383559E6 - 2026d5e22120f7e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sprint2.AddToCartViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Sprint2.AddToCartViewController&gt;"
+                  moduleName = "Sprint2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini-da073/Desktop/SPRINT2/Sprint2/Sprint2/AddToCartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C12FB2C-9BDC-4918-A393-A6E3F958FA83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sprint2/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "SignUpBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A80F627-0DE2-49A9-AF9A-6E33BD3C409E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sprint2/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "SignUpBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58684DFF-F5C6-43CD-82A6-F171DAD33712"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sprint2/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "SignUpBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
